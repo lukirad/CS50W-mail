@@ -1,0 +1,61 @@
+textarea {
+    min-height: 400px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.content {
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sender {
+  flex: 1;
+}
+
+/* Style h6 on the left for sender */
+.email h6.sender {
+    margin: 0;
+    flex: 1; /* Take up available space */
+}
+
+/* Style h5 for mail subject in the middle */
+.email h5.subject {
+    margin: 0;
+    flex: 3; /* Take up more space */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style h6 on the right for time sent */
+.email h6.time {
+    margin: 0;
+    margin-bottom: 0;
+    flex: 1; /* Take up available space */
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.read-email {
+  background-color: #f0f0f0;
+}
