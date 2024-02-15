@@ -7,7 +7,7 @@ A design of mail application that allows users to send, receive, reply and archi
 users on this app. There is login and registration process already inside. Emails are entirely stored in the repository 
 database, so email address and credentials need not be real. Once you are signed in, you are taken to the Inbox page of 
 the mail client. Click the buttons to navigate to your Sent and Archived mailboxes. The “Compose” button takes you to a 
-page that will let you compose a new email.Each time you click a button, though, you’re not being taken to a new route 
+page that will let you compose a new email. Each time you click a button, though, you’re not being taken to a new route 
 or making a new web request: instead, this entire application is just a single page, with JavaScript used to control the 
 user interface. You’ll get mail, send mail, and update emails by using this application’s API. CS50 team has already 
 written the entire API (and documented it [`here`](https://cs50.harvard.edu/web/2020/projects/3/mail/#api)), so that 
