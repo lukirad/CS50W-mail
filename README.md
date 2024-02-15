@@ -1,3 +1,4 @@
+(README in progress)
 # Mail
 Project 3 for CS50’s Web Programming with Python and JavaScript. Project was made using JavaScript, HTML and CSS.
 
